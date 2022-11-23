@@ -8,7 +8,7 @@
         $message = 'welcome,Author';
     }elseif('subscribe' === $role){
         $message = 'welcome, Subscribe';
-    }elseif{
+    }else{
         $message = 'Sorry';
     }
     print($message);
